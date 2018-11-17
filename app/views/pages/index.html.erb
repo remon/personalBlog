@@ -1,0 +1,84 @@
+<div class="page-container">
+	<div class="myimg-wrapper centery">
+	<img src="/assets/myimg.png" class="myimg">
+	
+	<p class="centery myp">
+		A full-Stack Web Developer from Egypt , I love coding , also I love teaching young people about web development 
+	</p>
+	
+	<div class="social-links">
+		<ul>
+			<li>
+				<a href="https://stackoverflow.com/users/2087775/remon-amin" class="stk" ><i class="fab fa-stack-overflow"></i></a>
+			</li>
+			<li>
+				<a href="https://github.com/remon"><i class="fab fa-github-square"></i></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/Remon_Nasr1" class="twt"><i class="fab fa-twitter-square"></i></a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/remon_nasr1/" class="ig"><i class="fab fa-instagram"></i></a>
+			</li>
+			<li>
+				<a href="https://facebook.com/remon.a2000" class="fb"> <i class="fab fa-facebook-square"></i></a>
+			</li>
+		</ul>
+		</div>
+	</div>
+	</div>
+	
+	<div class=" skills-container">
+	
+		<div class="col skills-main">
+			<div class="row">
+			<div class="col-md-6 col-sm-12">
+					<div class="skills-wrapper relative">
+						<span class="skill-name">Ruby</span>
+						<div class="skills-bar" data-width="80"></div>
+						</div><!--end of skills-wrapper-->
+						
+						<div class="skills-wrapper relative">
+						<span class="skill-name">JavaScript</span>
+						<div class="skills-bar" data-width="90"></div>
+						</div><!--end of skills-wrapper-->
+						<div class="skills-wrapper relative">
+						<span class="skill-name">Python</span>
+						<div class="skills-bar" data-width="60"></div>
+						</div><!--end of skills-wrapper-->
+						<div class="skills-wrapper relative">
+						<span class="skill-name">HTML/CSS</span>
+						<div class="skills-bar" data-width="80"></div>
+						</div><!--end of skills-wrapper-->
+				</div>
+					<div class="col-md-6 col-sm-12">
+						
+							<div class="skills-wrapper relative">
+						<span class="skill-name">Ruby On Rails</span>
+						<div class="skills-bar" data-width="90"></div>
+						</div><!--end of skills-wrapper-->
+							<div class="skills-wrapper relative">
+						<span class="skill-name">NodeJs</span>
+						<div class="skills-bar" data-width="80"></div>
+						</div><!--end of skills-wrapper-->
+								<div class="skills-wrapper relative">
+						<span class="skill-name">React</span>
+						<div class="skills-bar" data-width="80"></div>
+						</div><!--end of skills-wrapper-->
+								<div class="skills-wrapper relative">
+						<span class="skill-name">Bootstrap</span>
+						<div class="skills-bar" data-width="80"></div>
+						</div><!--end of skills-wrapper-->
+					</div>
+				</div>
+			</div>
+		
+		</div>
+<script>
+	var skillBars =$(".skills-bar");
+	
+	skillBars.each(function(){
+		var wido = $(this).data("width");
+		$(this).animate({ width:wido + "%"},2000); 
+	})
+</script>

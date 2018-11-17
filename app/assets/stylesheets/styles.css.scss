@@ -1,0 +1,137 @@
+.nmt{
+  font-family: 'Niramit', sans-serif;
+
+}
+.openco{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.reo_nav{
+  
+  li{
+    float: left;
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+  }
+}
+.header{
+  text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    display: inline-block;
+    width: 100%;
+}
+#main_menu{
+
+  top: 0;
+  z-index: 151;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  text-align: center;
+  width: 98%;
+}
+#main_menu.fixed{
+  position:fixed;
+}
+
+#one_page_menu{
+      width: auto;
+    display: inline-block;
+    float: none;
+/*        border-bottom: 1px solid #b1afaf;*/
+padding:0px;
+    padding-top: 20px;
+    
+    padding-bottom: 10px;
+    li{
+      float:left;
+      list-style: none;
+      a{
+        position: relative;
+    transition: 0.3s ease;
+     border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+    
+           padding: 20px 0;
+    margin: 0 20px;
+   
+    font-size: 1.5em;
+    text-decoration: none;
+  
+&:hover{
+    border-top: 4px solid #5175C0;
+  border-bottom: 4px solid #5175C0;
+  padding: 6px 0; 
+}
+ 
+}
+      }
+    }
+
+.myimg{
+  border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #466eff;
+}
+.myp{
+      font-size: 1.5em;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.social-links {
+  ul{
+      width: auto;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    display: inline-block;
+    text-align: center;
+    float: none;
+    padding: 0px;
+    li{
+         list-style: none;
+    float: left;
+    font-size: 2em;
+    margin: 0px 10px;
+    a{
+      color: inherit;
+    }
+    }
+  }
+}
+a.ig{
+  color:#C90887 !important;
+}
+a.fb{
+  color:#3A5794 !important;
+}
+a.twt{
+  color:#1C9CEB !important;
+}
+a.stk{
+  color:#EC7C23 !important;
+}
+.skills-main{
+margin-bottom:20px;
+    width: 90%;
+    margin-left: 5%;
+}
+.skills-bar{
+     width: 0%;
+    background: #34799E;
+    height: 25px;
+    border-radius: 5px;
+}
+.skills-wrapper{
+  background: #EEEEEE;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+    .skill-name{
+          position: absolute;
+    top: -25px;
+    font-weight: bold;
+    }
+}
